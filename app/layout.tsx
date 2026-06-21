@@ -22,9 +22,9 @@ const dmMono = DM_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Engineering Portfolio OS',
-  description: 'A dark-themed portfolio dashboard for a web engineer',
-  generator: 'v0.app',
+  title: 'kouteipengin | AI Web Portfolio',
+  description: 'WebサイトをAIを活用して作成しています。AIでどこまで作れるのか、企画から公開まで検証中。',
+  generator: 'Next.js',
   icons: {
     icon: [
       {
