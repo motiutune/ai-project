@@ -29,8 +29,8 @@ export default function PortfolioPage() {
             <ActivityTile />
           </BentoTile>
 
-          {/* AI Build Log - 2列 ★新規追加 */}
-          <BentoTile className="lg:col-span-2" delay={0.2}>
+          {/* AI Build Log - 2×2 ★高さ2行に変更 */}
+          <BentoTile className="lg:col-span-2 md:row-span-2" delay={0.2}>
             <AiLogTile />
           </BentoTile>
 
