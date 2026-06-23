@@ -10,6 +10,7 @@ import { CommandTile } from "@/components/portfolio/command-tile"
 import { ContactTile } from "@/components/portfolio/contact-tile"
 import { CursorGlow } from "@/components/portfolio/cursor-glow"
 import { AiLogTile } from "@/components/portfolio/ai-log-tile"
+import { TiktokTile } from "@/components/portfolio/tiktok-tile"
 
 export default function PortfolioPage() {
   return (
@@ -57,6 +58,11 @@ export default function PortfolioPage() {
           {/* Contact */}
           <BentoTile delay={0.7}>
             <ContactTile />
+          </BentoTile>
+
+          {/* TikTok ★追加 */}
+          <BentoTile delay={0.8}>
+            <TiktokTile />
           </BentoTile>
 
         </div>
