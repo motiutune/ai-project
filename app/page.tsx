@@ -30,7 +30,7 @@ export default function PortfolioPage() {
             <ActivityTile />
           </BentoTile>
 
-          {/* AI Build Log - 2×2 ★高さ2行に変更 */}
+          {/* AI Build Log - 2列×2行 */}
           <BentoTile className="lg:col-span-2 md:row-span-2" delay={0.2}>
             <AiLogTile />
           </BentoTile>
@@ -60,7 +60,7 @@ export default function PortfolioPage() {
             <ContactTile />
           </BentoTile>
 
-          {/* TikTok ★追加 */}
+          {/* TikTok */}
           <BentoTile delay={0.8}>
             <TiktokTile />
           </BentoTile>
@@ -69,7 +69,7 @@ export default function PortfolioPage() {
 
         <footer className="mt-8 text-center">
           <p className="text-xs text-muted-foreground font-mono">
-            Built with AI — Next.js + Tailwind CSS + Claude + v0
+            // Built with AI — Claude × v0 × Gemini × ChatGPT
           </p>
         </footer>
       </div>
